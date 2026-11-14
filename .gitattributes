@@ -1,3 +1,4 @@
+# Normalise line endings: LF in the repository, native endings in your working folder.
 * text=auto
 
 *.java  text diff=java
@@ -9,3 +10,5 @@
 *.png   binary
 *.jpg   binary
 *.pdf   binary
+*.ser   binary
+*.dat   binary

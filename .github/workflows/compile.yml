@@ -9,9 +9,9 @@ jobs:
   compile:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '21'
@@ -28,9 +28,10 @@ jobs:
               continue
             fi
             week="$(dirname "$dir")"
-            echo "Compiling $week"
+            echo "::group::Compiling $week"
             find "$dir" -name '*.java' > sources.txt
             javac -d "build-ci/$week" -Xlint:all @sources.txt
+            echo "::endgroup::"
             compiled=$((compiled + 1))
           done
           echo "Compiled $compiled week folder(s)."

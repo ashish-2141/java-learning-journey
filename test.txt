@@ -1,3 +1,0 @@
-# Java Learning Journey
-
-A 12-week self-paced Core Java study plan.

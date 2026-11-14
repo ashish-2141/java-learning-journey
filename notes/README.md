@@ -1,9 +1,8 @@
-# Study Notes
+# Notes
 
-Use the templates in `templates/` to keep concise, useful records of each study session.
+- `templates/` – copy these, never edit the originals.
+- `daily/` – one file per session, e.g. `daily/2026-11-16-week01-block1.md`.
+- `assessments/` – one scorecard per Saturday, e.g. `assessments/week01.md`.
+- `mistakes-log.md` – create it from `templates/mistakes-log.md` on day 1 and keep adding to it.
 
-- `daily-note.md`: concepts, examples, mistakes and next steps
-- `weekly-assessment.md`: record your weekly score and remediation tasks
-- `mistakes-log.md`: track recurring errors and their fixes
-
-Keep your notes in `daily/` and assessments in `assessments/`.
+Commit notes with `docs:` (e.g. `docs: add notes on string immutability`).

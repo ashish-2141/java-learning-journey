@@ -1,18 +1,45 @@
+# ---- Compiled output (javac -d out/..., IntelliJ out/, CI) ----
 out/
 bin/
 build/
 build-ci/
 target/
 *.class
+
+# ---- From GitHub's Java.gitignore template ----
 *.log
+*.ctxt
+.mtj.tmp/
 *.jar
 *.war
+*.nar
 *.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ---- IntelliJ IDEA (project settings are re-created locally; see docs/setup.md) ----
 .idea/
 *.iml
+*.iws
+*.ipr
+
+# ---- Other editors ----
 .vscode/
+.classpath
+.project
+.settings/
+
+# ---- Operating-system files ----
 .DS_Store
+._*
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Data written by Week 11 / Week 12 programs ----
 data/*
 !data/.gitkeep
 *.ser

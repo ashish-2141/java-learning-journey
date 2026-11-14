@@ -1,26 +1,27 @@
-# After Week 12: Supporting Topics
+# After Week 12 – Important Supporting Topics
 
-The 12-week plan builds a Core Java foundation. Before moving seriously into Spring Boot, study these supporting topics and practise them in small programs.
+Add these immediately after the 12-week plan: **another 5–6 weeks** before moving
+seriously into Spring Boot. Use the same daily method, four exercise levels and Saturday assessment.
 
-1. Deeper object-oriented design and composition
-2. Interfaces and abstract classes
-3. Inheritance and polymorphism
-4. Enums and records
-5. Annotations
-6. Lambda expressions
-7. Functional interfaces
-8. Stream API
-9. Optional
-10. Date and Time API
-11. Regular expressions
-12. BigDecimal for financial calculations
-13. Maven or Gradle
-14. JUnit testing
-15. Logging
-16. Debugging in the IDE
-17. Basic networking and HTTP
-18. JSON processing
-19. JDBC and relational database fundamentals
-20. Git branching, pull requests and code review
+- [ ] 1. Constructors
+- [ ] 2. Static members
+- [ ] 3. Method overloading
+- [ ] 4. Inheritance
+- [ ] 5. Method overriding
+- [ ] 6. Polymorphism
+- [ ] 7. Abstract classes
+- [ ] 8. Interfaces
+- [ ] 9. Enums
+- [ ] 10. Records
+- [ ] 11. Wrapper classes
+- [ ] 12. equals(), hashCode(), and toString()
+- [ ] 13. Comparable and Comparator
+- [ ] 14. Lambda expressions
+- [ ] 15. Stream API
+- [ ] 16. Date and Time API
+- [ ] 17. Regular expressions
+- [ ] 18. Unit testing with JUnit
+- [ ] 19. Maven or Gradle  (optional exercise: convert week-12-integrated-project to Maven)
+- [ ] 20. Basic concurrency
 
-Do not rush through this list. Implement small examples and explain each topic before adding it to a project.
+Suggested folders (optional): `phase-2/topic-01-constructors/src/...`, following the same layout as the weeks.
