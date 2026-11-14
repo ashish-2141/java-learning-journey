@@ -1,28 +1,33 @@
-# Daily Study Note
+# Daily note – <YYYY-MM-DD> – Week <NN>, Block <N>
 
-Date:
-Week / block:
-Time spent:
+## 1. Retrieval practice (15 min, no notes)
+- What I learned yesterday:
+- Syntax example 1:
+  ```java
 
-## What I studied
+  ```
+- Syntax example 2:
+  ```java
 
-- Concept:
-- Definition in my own words:
-- Practical use:
+  ```
+- One mistake I made:
+- One question I still have:
 
-## Example I typed myself
+## 2. Today's topic
 
-```java
-// Add your own code here.
-```
+| | |
+|---|---|
+| **Definition** | |
+| **Syntax** | |
+| **Example** | |
+| **Common mistake** | |
+| **Practical use** | |
 
-## What I predicted
+## 3. Debugging (20 min)
+- Syntax error I introduced → fix:
+- Type error → fix:
+- Logic error → fix:
+- Runtime exception → fix:
 
-## What happened when I ran it
-
-## Mistake I made and how I fixed it
-
-## Question I still have
-
-## Next session
-
+## 4. Commit
+- Message used: `practice: ...`

@@ -1,26 +1,19 @@
-# Weekly Assessment
+# Weekly assessment – Week <NN> – <YYYY-MM-DD>
 
-Week:
-Date:
+| Part | Content | Max | My score |
+|---|---|---|---|
+| A | Concept test (10 MCQ, 5 true/false, 5 short definitions) | 20 | |
+| B | Code reading (predict output of 4 programs) | 20 | |
+| C | Debugging (fix 4 broken programs) | 20 | |
+| D | Coding (2 problems, no assistance) | 30 | |
+| E | Explanation (one concept aloud, 5 minutes) | 10 | |
+| | **Total** | **100** | |
 
-| Section | Marks earned | Maximum |
-|---|---:|---:|
-| Concept test | | 20 |
-| Code reading | | 20 |
-| Debugging | | 20 |
-| Independent coding | | 30 |
-| Explanation | | 10 |
-| Total | | 100 |
+- Overall ≥ 70%?            [ ] yes  [ ] no
+- Coding (Part D) ≥ 60% (18/30)?   [ ] yes  [ ] no
+- **Result:** PASS / REMEDIATE
 
-Passing rule: at least 70% overall and at least 60% in coding (18/30).
-
-## What went well
-
-## Topics to revise
-
-## Remediation tasks
-
-## Ready to continue?
-
-- [ ] Yes
-- [ ] No, remediate before moving on
+## Remediation (if either requirement was missed – use the next day)
+- Weak topics:
+- What I re-studied:
+- Re-test result:
