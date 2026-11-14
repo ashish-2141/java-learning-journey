@@ -1,0 +1,36 @@
+name: Compile Java
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Compile each week separately
+        shell: bash
+        run: |
+          set -euo pipefail
+          compiled=0
+          for dir in week-*/src; do
+            [ -d "$dir" ] || continue
+            if [ -z "$(find "$dir" -name '*.java' -print -quit)" ]; then
+              echo "No Java files in $dir - skipping"
+              continue
+            fi
+            week="$(dirname "$dir")"
+            echo "Compiling $week"
+            find "$dir" -name '*.java' > sources.txt
+            javac -d "build-ci/$week" -Xlint:all @sources.txt
+            compiled=$((compiled + 1))
+          done
+          echo "Compiled $compiled week folder(s)."
